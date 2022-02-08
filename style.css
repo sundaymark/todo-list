@@ -1,5 +1,98 @@
-.pen{
-    text-align: center;
-    background-color: darkslategrey;
-    color: whitesmoke;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    text-align: center;
+    height: 100vh;
+    background-color: #066acd;
+
+}
+
+.head {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    
+}
+
+.head h1{
+    font-weight: lighter;
+}
+.container {
+    display: flex;
+    background-color: #ffffff;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    margin: 50px auto;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.new-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.new-task input{
+    padding-left: 10px;
+    height: 40px;
+    border: solid #066acd 2px;
+    font-size: larger;
+    color: #066acd;
+    flex: 2 1 auto;
+}
+
+.new-task input:focus {
+    outline: none;
+    border: solid #066acd 2px;
+}
+.new-task input::placeholder {
+    color: #1862ac;
+}
+button {
+    height: 40px;
+    width: 100px;
+    background-color: #066acd;
+    border: solid #066acd 2px;
+    color: #ffffff;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: #1862ac;
+    border: solid #0861b9 2px;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 30vh;
+    color: blanchedalmond;
+    font-size: larger;
+    font-weight: lighter;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+
+
+
