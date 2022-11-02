@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/project5.webp)no-repeat no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-task-container {
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 0 3px;
+    display: flex;
+}
+
+input {
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.add-task {
+    flex: 1;
+    font-size: 1.2rem;
+    padding: 4px;
+    transition: .3sec;
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+.add-task:hover{
+    background-color: green;
+    color: white;
+}
