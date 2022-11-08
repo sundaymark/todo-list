@@ -4,7 +4,7 @@ const taskContainer = document.querySelector('.task-container');
 const inputTask = document.querySelector('.input-task');
 
 //event listener for add button
-addTask.addEventListener('click', function(){
+addTask.addEventListener('click', function () {
     let task = document.createElement('div');
     task.classList.add('task');
 
@@ -22,13 +22,22 @@ addTask.addEventListener('click', function(){
     deleteButton.classList.add('deleteTask');
     task.appendChild(deleteButton);
 
-    if (inputTask.value === ""){
+    if (inputTask.value === "") {
         alert('Please Enter a Task')
-    }else{
+    } else {
         taskContainer.appendChild(task);
     }
 
     inputTask.value = "";
+
+    checkButton.addEventListener('click', function () {
+        checkButton.parentElement.style.textDecoration = 'line-through'
+    })
+
+    deleteButton.addEventListener('click', function (e) {
+        let target = e.target;
+        target.parentElement.parentElement.remove();
+    })
 })
 
 
