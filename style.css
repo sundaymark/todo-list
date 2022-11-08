@@ -21,7 +21,7 @@ body {
     box-shadow: 0 0 3px;
     display: flex;
     margin-bottom: 20px;
-    
+
 }
 
 input {
@@ -43,15 +43,15 @@ input {
     border: 2px solid green;
 }
 
-.add-task:hover{
+.add-task:hover {
     background-color: green;
     color: white;
 }
 
 /*styling for tasks which get added to the todo list*/
 
-.task{
-    width:100%;
+.task {
+    width: 100%;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 3px;
@@ -61,7 +61,7 @@ input {
     justify-content: space-between;
 }
 
-.task li{
+.task li {
     list-style: none;
     flex: 4;
     padding: 5px;
@@ -69,31 +69,31 @@ input {
     margin: 10px;
 }
 
-.task button{
+.task button {
     flex: 1;
     border-radius: 10px;
     background-color: white;
 }
 
-.task .checkTask{
+.task .checkTask {
     color: orange;
     margin-right: 5px;
     border: 2px solid orange;
     font-size: 1.5rem;
 }
 
-.task .checkTask:hover{
+.task .checkTask:hover {
     background-color: orange;
     color: white;
 }
 
-.task .deleteTask{
-    color:red;
+.task .deleteTask {
+    color: red;
     border: 2px solid red;
     font-size: 1.3rem;
 }
 
-.task .deleteTask:hover{
+.task .deleteTask:hover {
     background-color: red;
     color: white;
 }
