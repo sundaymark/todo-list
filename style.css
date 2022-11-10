@@ -100,3 +100,16 @@ input {
     color: white;
 }
 
+.parent-div{
+    display: flex;
+    width: 50%;
+}
+
+.input-field{
+    width: 80%;
+}
+
+. button1{
+    width: 20%;
+}
+
