@@ -15,7 +15,6 @@ body {
 
 
 .add-task-container {
-    max-width: 75%;
     background: white;
     border-radius: 20px;
     padding: 20px 10px;
@@ -23,15 +22,12 @@ body {
     box-shadow: 0 0 3px;
     display: flex;
     margin-bottom: 20px;
-
 }
 
 input {
-    flex: 5;
-    margin-right: 10px;
     border-radius: 10px;
-    font-size: 1.5rem;
     padding: 5px;
+    width: 200px;
 }
 
 .add-task {
@@ -102,14 +98,18 @@ input {
 
 .parent-div{
     display: flex;
-    width: 50%;
+    justify-content: space-between;
+}
+
+@media (width: 320px) {
+    input {
+        width: 400px;
+    }
 }
 
 .input-field{
-    width: 80%;
+    margin-right: 1vw;
 }
 
-.button1{
-    width: 20%;
-}
+
 
